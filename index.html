@@ -1,0 +1,492 @@
+
+
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta  name="viewport"  content="width=device-width, initial-scale=1"  charset="utf-8">
+    <title>Anooj Kinagi | Software / Web Developer</title>
+    <link rel="shortcut icon" type="image/png" href="public/pics/titlelogo.png" />
+    <link href="https://fonts.googleapis.com/css?family=Orbitron:700" rel="stylesheet">
+  <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="public/style.css">
+     <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css"
+  integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw"
+  crossorigin="anonymous">
+
+</head>
+
+<body>
+        
+
+
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand linksection" href="#home"><img src="public/pics/brand.png" class="brand" alt="brand"></a>
+            </div>
+        
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav ">
+                <li><a href="#skills" class="linksection">Skills</a></li>
+                <li><a href="#portfolio" class="linksection">Portfolio</a></li>
+                <li><a href="#aboutsection" class="linksection">About</a></li>
+                <li><a href="#footer" class="linksection">Contact</a></li>
+                
+            </ul>
+            
+            
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+        </nav>
+ 
+
+<div class="backimg1" id="home">
+   
+</div> 
+   <div class="maintext" >
+       
+      
+      <div class="type">
+          <h1>ANOOJ KINAGI</h1>
+      </div>
+      
+       <hr>
+       
+       <h2>Software / Web Developer</h2>
+        <button class="getintouch">
+        <div  class="email"> <a href="mailto:kinagianooj@gmail.com?Subject=Hi%20Anooj" target="_top">Get In Touch</a></div>
+       </button>
+       <button class="getintouch">
+        <div  class="email"> <a href="public/pics/myresume.pdf" class="email" download>Download Resume</a></div>
+       </button>
+   </div>
+
+ <section class="section section-light  aboutsection" id="aboutsection">
+      <h2>About Me</h2>
+      <hr>
+      <img src="public/pics/profileimg.jpg"alt="profile" class="aboutmepic">
+       <p>I completed my Master's at Stevens Institute of Techology, New Jersey in Computer Science. 
+          My coursework consisted a mix of Data Structures,
+          Web Development, Data Mining and Database Management subjects.</p>
+          
+          
+          <div id="map"></div>
+         <p>  Yup, Thats how far I've come. I have always been curious to learn new technologies. I have a hunger for knowledge and determination 
+             to turn information into action. I’m constantly learning web technologies, currently playing around with Android and Mobile Apps. 
+             I consider myself hardworking, determined and a teamplayer. 
+             I have worked on several Web Development projects as a Full-Stack Developer. My key skills include Java, JavaScript, HTML, CSS, Nodejs, Angular 2+ and
+            you can find other skills <a href="#skills" class="linksection here">HERE</a>.
+             I am hoping to grasp more in-depth understanding and command over this area.</p>
+    
+      
+</section>
+
+ <div class="backimg2">
+      
+ </div>
+  
+   <section class="section section-light portfolio " id="portfolio">
+     <div class="allcards">
+         <h2>PORTFOLIO</h2>
+         <hr class="port">
+
+         <div class="card">
+            <div class="cardanddesc">  
+   <div class="paraleft">
+    An Ecommerce Website made using WordPress for users to buy books online. "You can buy your favourite books at <a href="http://shopabook.info/" target="_blank">http://shopabook.info/</a>"
+
+</div>
+
+     <div class="card0" id="right">
+         <div class="front">
+             <h1>ShopABook - Online Bookstore</h1>
+             <hr class="porthr">
+             <h4>Ecommerce Website</h4>
+             <h5>(Aug 2018 - Dec 2018)</h5>
+              <button class="cardbutton" onclick="flip0()">Learn More</button>
+         </div>
+         <div class="back" onclick="flip0()">
+             <p>Implemented Search Engine Optimization using WordPress plugin Yoast. Used Google Analytics to track user traffic to the website.<br>
+                Created Google Ads Campaign for the website to increase traffic. Performed A/B testing on the website using Optimizely.
+            </p>
+         </div>
+     </div>
+
+     
+     </div>
+     </div>
+
+
+     <hr class="cardhr">
+
+
+    <div class="card">  
+            <div class="cardanddesc">     
+     <div class="card1" id="left">
+   
+         <div class="front" >
+             <h1>Restaurant-Finder</h1>
+             <hr class="porthr">
+             <h4>Web Development</h4>
+             <h5>(Feb 2018 - April 2018)</h5    >
+             <button class="cardbutton" onclick="flip1()">Learn More</button>
+         </div>
+         <div class="back" onclick="flip1()"><p>Used Nodejs as server side scripting language to fetch data from MongoDB.<br>
+ Implemented geolocation feature for the restaurant<br>
+ A user could give a review for restaurant which was dynamically added using AJAX.</p>
+ </div>
+  
+     </div>
+     <div class="para">
+      <p>   A Web Application to find your favourite restaurants in New York and New Jersey. You can filter the restaurants based
+         on the Location and Cuisine served at that location.  </p>
+
+     </div>
+     </div>
+     </div>
+   <hr class="cardhr">
+   
+    <div class="card">
+            <div class="cardanddesc">  
+   <div class="paraleft">
+    The cost of the wine is determined by the rather abstract concept of the reviews of the wine taster.
+    The quality of the wine can also be determined by the chemical components in the wine. This project focuses on the analysis of 
+    which chemical properties affect the quality and predicting the quality based on the chemcal composition.
+
+</div>
+
+     <div class="card2" id="right">
+         <div class="front">
+             <h1>Wine Quality Analysis and Prediction</h1>
+             <hr class="porthr">
+             <h4>Data Mining</h4>
+             <h5>(Feb 2018 - April 2018)</h5>
+              <button class="cardbutton" onclick="flip2()">Learn More</button>
+         </div>
+         <div class="back" onclick="flip2()">
+             <p>The Analysis revealed which chemical components affected the quality of the wine<br>
+             Further, We used Random Fores, KNN and other classification algorithms to predict the Quality of Wines.
+            </p>
+         </div>
+     </div>
+
+     
+     </div>
+     </div>
+     
+   <hr class="cardhr">
+
+    <div class="card"> 
+
+            <div class="cardanddesc">  
+     <div class="card3" id="left" >
+         <div class="front">
+             <h1>Battery Saving in Smartphones using Machine Learning</h1>
+             <hr class="porthr">
+             <h4>Android, Machine Learning</h4>
+             <h5>(Feb 2017 - April 2017)</h5>
+              <button class="cardbutton" onclick="flip3()">Learn More</button>
+         </div>
+         <div class="back" onclick="flip3()">
+            <p> Built Mock up screens using jQuery Mobile as part of designing the User
+              Interface.<br>
+             Developed the navigation activity and User Login Activity for the app.<br>
+                </p>
+         </div>
+     </div>
+<div class="para">
+   Many people face problems when it comes to the Battery Life of their Smartphones.
+    This Application saves battery in Smartphones by using Machine Learning techniques, It learns the user's usage pattern and creates
+    a custom profile for that user. 
+</div>
+</div>
+     </div>
+   <hr class="cardhr">
+
+    <div class="card">
+            <div class="cardanddesc">  
+
+   <div class="paraleft">
+       A simple Website for a real estate company showing the information about the property listing. The project included features like 
+       user login and Sign up page. 
+     </div>
+     <div class="card4" id="right">
+         <div class="front">
+             <h1>Real Estate Website</h1>
+             <hr class="porthr">
+             <h4>Web Development</h4>
+             <h5>(Feb 2016 - April 2016)</h5>
+              <button class="cardbutton" onclick="flip4()">Learn More</button>
+         </div>
+         <div class="back" onclick="flip4()">
+   <p>Worked as a Full-Stack developer, creating a dynamic and interactive
+    website for rich user experience.<br>
+      Used PHP and MySQL for backend database connectivity.</p>
+      </div>
+     </div>
+ </div>
+     
+     </div>
+        <hr class="cardhr">
+
+     <div class="card">
+            <div class="cardanddesc"> 
+      <div class="card5" id="left">
+         <div class="front">
+             <h1>College Website</h1>
+             <hr class="porthr">
+             <h4>Web Development</h4>
+             <h5>(Feb 2015 - April 2015)</h5>
+              <button class="cardbutton" onclick="flip5()">Learn More</button>
+         </div>
+         <div class="back" onclick="flip5()">
+  <p>Worked on the Front-End to create dynamic user interface using JavaScript.<br>
+    Maintained a database connectivity for student records.
+      
+   </p>
+</div>
+     </div>
+
+     <div class="para">
+          Website for College students to get information about the Course Syllabus and Class Schedule. This was one of 
+          my very first Web Development project.
+     </div>
+     </div>
+     </div>
+     </div>
+    <a href="public/pics/myresume.pdf" class="resumedown" download>Download Resume</a>
+</section>
+
+ <div class="skills1" id="skills">
+      
+    <div class="skills">
+  <h2>Skills</h2>
+  <hr>
+ <br>
+
+
+
+ <div class="title html" data-percent="85%">Java
+     <div class="percent">90%</div>
+ </div>
+ 
+ <div class="progress-bar bar">
+     <div class="colorbar"></div>
+ </div>
+<br>
+  <div class="title html" data-percent="95%">JavaScript
+     <div class="percent">95%</div>
+ </div>
+ 
+ <div class="progress-bar bar">
+     <div class="colorbar"></div>
+ </div>
+<br>
+  <div class="title html" data-percent="95%">HTML
+     <div class="percent">95%</div>
+ </div>
+ 
+ <div class="progress-bar bar">
+     <div class="colorbar"></div>
+ </div>
+<br>
+  <div class="title html" data-percent="90%">CSS
+     <div class="percent">90%</div>
+ </div>
+ 
+ <div class="progress-bar bar">
+     <div class="colorbar"></div>
+ </div>
+
+<br>
+  <div class="title html" data-percent="90%">Nodejs
+     <div class="percent">90%</div>
+ </div>
+ 
+ <div class="progress-bar bar">
+     <div class="colorbar"></div>
+ </div>
+
+ 
+<br>
+  <div class="title html" data-percent="80%">SQL
+     <div class="percent">80%</div>
+ </div>
+ 
+ <div class="progress-bar bar">
+     <div class="colorbar"></div>
+ </div>
+
+<br>
+  <div class="title html" data-percent="70%">Angular 4+
+     <div class="percent">70%</div>
+ </div>
+ 
+ <div class="progress-bar bar">
+     <div class="colorbar"></div>
+ </div>
+<br>
+ <div class="title html" data-percent="50%">C/C++
+     <div class="percent">50%</div>
+ </div>
+ 
+ <div class="progress-bar bar">
+     <div class="colorbar"></div>
+ </div>
+<br>
+<div class="title html" data-percent="70%">R
+     <div class="percent">70%</div>
+ </div>
+ 
+ <div class="progress-bar bar">
+     <div class="colorbar"></div>
+ </div>
+  <br>
+  <div class="title html" data-percent="60%">Android
+     <div class="percent">60%</div>
+ </div>
+ 
+ <div class="progress-bar bar">
+     <div class="colorbar"></div>
+ </div>
+
+
+</div> 
+
+ </div>
+ 
+
+<div class="backimg3" id="third">
+  
+   </div>
+  
+ 
+
+
+   
+   
+   
+    
+
+<footer id="footer">
+    <h2>Let's Work together!</h2>
+<div class="container">
+
+
+</div>
+    <h3>You can contact me on </h3>
+    <span class="glyphicon glyphicon-phone number" aria-hidden="true"></span> <span class="number">857-800-5503</span>
+    <br>
+    <button class="emailbtn">
+        <div  class="email"> <a href="mailto:kinagianooj@gmail.com?Subject=Hi%20Anooj" target="_top">Send an Email</a></div>
+    </button>
+    <h3>You can also find me on these platforms</h3>
+    
+   <a href="https://www.facebook.com/anooj.kinagi" target="_blank"><img src="public/pics/fb.png" class="insta"> </a> <span class="divide"></span> <a href="https://www.instagram.com/anoojk/" target="_blank"><img src="public/pics/insta.png" class="insta"> </a> <span class="divide"></span>      <a href="https://github.com/anoojkinagi" target="_blank"><img src="public/pics/github.png" class="insta"> </a> <span class="divide"></span><a href="https://plus.google.com/u/0/108154159346082500263" target="_blank"><img src="public/pics/google.png" class="insta"> </a>  <span class="divide"></span><a href="https://www.linkedin.com/in/anoojkinagi/" target="_blank"><img src="public/pics/linkedin.png" class="insta"> </a>
+
+</footer>
+ 
+
+    <script>
+
+      // This example creates a 2-pixel-wide red polyline showing the path of
+      // the first trans-Pacific flight between Oakland, CA, and Brisbane,
+      // Australia which was made by Charles Kingsford Smith.
+
+      function initMap() {
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 1.2,
+          center: {lat: 40.0760, lng: 0.8777},
+          mapTypeId: 'terrain',
+          disableDefaultUI: true
+        });
+
+        var flightPlanCoordinates = [
+          {lat: 19.0760, lng: 72.8777},
+        
+          {lat: 40.0583, lng: -74.871826    }
+        ];
+
+             var pinIcon = new google.maps.MarkerImage(
+     "public/pics/icon2.png",
+    null, /* size is determined at runtime */
+    null, /* origin is 0,0 */
+    null, /* anchor is bottom center of the scaled image */
+    new google.maps.Size(20, 20)
+);  
+          var marker = new google.maps.Marker({
+                position: {
+                  lat: 19.0760,
+                  lng:  72.8777
+              },
+              icon: pinIcon,
+                map: map,
+            
+            });
+       
+             var marker1 = new google.maps.Marker({
+                position: {
+                  lat: 40.0583,
+                  lng:  -74.871826
+              },
+              icon:pinIcon,
+                map: map,
+            
+            });
+
+
+        var flightPath = new google.maps.Polyline({
+          path: flightPlanCoordinates,
+         geodesic: true,
+          strokeColor: '#00FFFFF',
+          strokeOpacity: 1.0,
+          strokeWeight: 1
+        });
+
+        flightPath.setMap(map);
+      }
+    </script>
+
+    
+
+   
+
+ <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+ 
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8tp7SYlxrdXnen7AWbLplRE39wTRqn7A&callback=initMap">
+    </script>
+    <script src="jquery-3.3.1.min.js"></script>
+     
+   
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+ <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
+
+
+    
+      <script src="public/script.js"></script>
+      
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>  
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  
+
+
+    
+</body>
+
+</html>
